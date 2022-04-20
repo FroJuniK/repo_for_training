@@ -1,2 +1,11 @@
-# repo_for_training
+## Homework for the course from OTUS: [Java Developer. Professional](https://otus.ru/lessons/java-professional/)
+#### Разработчик Java. Углубленный уровень
 Проект gradle с модульной структурой
+#### [hw01-gradle](https://github.com/FroJuniK/repo_for_training/tree/main/hw01-gradle)
+Тема: Проект gradle с модульной структурой<br>
+Цель: Научиться создавать проект Gradle (Maven), подготовиться к выполнению домашних заданий<br>
+#### [hw02-generics](https://github.com/FroJuniK/repo_for_training/tree/main/hw02-generics)
+Тема: Применение коллекций<br>
+Цель: Попрактиковать различные аспекты коллекций, познакомиться с реализациями Map<br>
+
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
