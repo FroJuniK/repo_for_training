@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow'
+}
+
+dependencies {
+}
+
+shadowJar {
+    archiveBaseName.set('testsLauncher')
+    archiveVersion.set('0.1')
+    archiveClassifier.set('')
+    manifest {
+        attributes 'Main-Class': 'ru.otus.homework.TestsLauncher'
+    }
+}
+
+tasks.build.dependsOn tasks.shadowJar
