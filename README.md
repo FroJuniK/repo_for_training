@@ -10,5 +10,8 @@
 #### [hw03-annotations](https://github.com/FroJuniK/repo_for_training/tree/main/hw03-annotations)
 Тема: Свой тестовый фреймворк<br>
 Цель: Научиться работать с reflection и аннотациями, понять принцип работы фреймворка junit<br>
+#### [hw05-byteCodes](https://github.com/FroJuniK/repo_for_training/tree/main/hw05-byteCodes)
+Тема: Автоматическое логирование<br>
+Цель: Понять как реализуется AOP, какие для этого есть технические средства<br><br>
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
