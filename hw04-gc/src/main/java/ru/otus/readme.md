@@ -11,7 +11,7 @@
 | Время, мс | 3997 | 3837 | 3772 | **3752** | 3813 | **3650** |
 
 График зависимости времени выполнения программы от количества памяти
-![graph](https://github.com/FroJuniK/repo_for_training/blob/hw04-gc/hw04-gc/src/main/resources/graph.png)
+![graph](https://github.com/FroJuniK/repo_for_training/blob/main/hw04-gc/src/main/resources/graph.png)
 
 Согласно полученным значениям, оптимальным размером хипа при использовании ссылочных типов является 2048 Мб и при использовании примитивных - 2048 Мб, хотя минимум времени зафиксирован при 8192 Мб.
 
