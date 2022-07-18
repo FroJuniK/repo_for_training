@@ -10,6 +10,9 @@
 #### [hw03-annotations](https://github.com/FroJuniK/repo_for_training/tree/main/hw03-annotations)
 Тема: Свой тестовый фреймворк<br>
 Цель: Научиться работать с reflection и аннотациями, понять принцип работы фреймворка junit<br>
+#### [hw04-gc](https://github.com/FroJuniK/repo_for_training/tree/main/hw04-gc)
+Тема: Определение нужного размера хипа<br>
+Цель: На примере простого приложения понять какое влияние оказывают сборщики мусора<br>
 #### [hw05-byteCodes](https://github.com/FroJuniK/repo_for_training/tree/main/hw05-byteCodes)
 Тема: Автоматическое логирование<br>
 Цель: Понять как реализуется AOP, какие для этого есть технические средства<br><br>
