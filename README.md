@@ -13,5 +13,8 @@
 #### [hw04-gc](https://github.com/FroJuniK/repo_for_training/tree/main/hw04-gc)
 Тема: Определение нужного размера хипа<br>
 Цель: На примере простого приложения понять какое влияние оказывают сборщики мусора<br>
-<br>
+#### [hw05-byteCodes](https://github.com/FroJuniK/repo_for_training/tree/main/hw05-byteCodes)
+Тема: Автоматическое логирование<br>
+Цель: Понять как реализуется AOP, какие для этого есть технические средства<br><br>
+
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
