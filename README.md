@@ -15,6 +15,9 @@
 Цель: На примере простого приложения понять какое влияние оказывают сборщики мусора<br>
 #### [hw05-byteCodes](https://github.com/FroJuniK/repo_for_training/tree/main/hw05-byteCodes)
 Тема: Автоматическое логирование<br>
-Цель: Понять как реализуется AOP, какие для этого есть технические средства<br><br>
+Цель: Понять как реализуется AOP, какие для этого есть технические средства<br>
+#### [hw06-solid](https://github.com/FroJuniK/repo_for_training/tree/main/hw06-solid)
+Тема: Эмулятор банкомата<br>
+Цель: Применить на практике принципы SOLID<br><br>
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
