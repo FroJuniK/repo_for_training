@@ -1,6 +1,5 @@
 package ru.otus.homework.listener.homework;
 
-
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import ru.otus.homework.model.Message;
@@ -14,8 +13,7 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 class HistoryListenerTest {
 
     @Test
-    @Disabled
-        //надо удалить
+//    @Disabled
     void listenerTest() {
         //given
         var historyListener = new HistoryListener();
@@ -29,17 +27,17 @@ class HistoryListenerTest {
 
         var message = new Message.Builder(id)
                 .field10("field10")
-//TODO: раскоментировать       .field13(field13)
+                .field13(field13)   //TODO: раскоментировать
                 .build();
 
         //when
         historyListener.onUpdated(message);
-//TODO: раскоментировать        message.getField13().setData(new ArrayList<>()); //меняем исходное сообщение
-//TODO: раскоментировать        field13Data.clear(); //меняем исходный список
+        message.getField13().setData(new ArrayList<>()); //меняем исходное сообщение    //TODO: раскоментировать
+        field13Data.clear(); //меняем исходный список                                   //TODO: раскоментировать
 
         //then
         var messageFromHistory = historyListener.findMessageById(id);
         assertThat(messageFromHistory).isPresent();
-//TODO: раскоментировать        assertThat(messageFromHistory.get().getField13().getData()).containsExactly(data);
+        assertThat(messageFromHistory.get().getField13().getData()).containsExactly(data);  //TODO: раскоментировать
     }
 }
