@@ -1,12 +1,10 @@
 package ru.otus.homework.listener.homework;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import ru.otus.homework.model.Message;
 import ru.otus.homework.model.ObjectForMessage;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 

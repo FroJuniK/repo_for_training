@@ -1,6 +1,8 @@
 package ru.otus.homework.model;
 
-public class Message {
+import ru.otus.homework.copier.Copyable;
+
+public class Message implements Copyable<Message> {
     private final long id;
     private final String field1;
     private final String field2;
@@ -126,8 +128,17 @@ public class Message {
                 ", field10='" + field10 + '\'' +
                 ", field11='" + field11 + '\'' +
                 ", field12='" + field12 + '\'' +
-                ", field13='" + field13 + '\'' +
+                ", field13.data='" + (field13 == null ? null : field13.getData()) + '\'' +
                 '}';
+    }
+
+    @Override
+    public Message copy() {
+        Builder builder = this.toBuilder();
+        if (getField13() != null) {
+            builder.field13(getField13().copy());
+        }
+        return builder.build();
     }
 
     public static class Builder {
