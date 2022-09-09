@@ -1,7 +1,6 @@
-package ru.otus.homework;
+package ru.otus;
 
-import ru.otus.homework.exception.BanknoteIsNotRecognizedException;
-import ru.otus.homework.exception.UnableToWithdrawException;
+import ru.otus.exception.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;

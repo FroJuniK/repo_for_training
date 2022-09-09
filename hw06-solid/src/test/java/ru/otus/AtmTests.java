@@ -1,9 +1,8 @@
-package ru.otus.homework;
+package ru.otus;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import ru.otus.homework.exception.BanknoteIsNotRecognizedException;
-import ru.otus.homework.exception.UnableToWithdrawException;
+import ru.otus.exception.*;
 
 import java.util.Arrays;
 import java.util.List;

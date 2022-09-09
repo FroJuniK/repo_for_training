@@ -1,4 +1,4 @@
-package ru.otus.homework.exception;
+package ru.otus.exception;
 
 public class BanknoteIsNotRecognizedException extends Exception {
     public BanknoteIsNotRecognizedException() {
