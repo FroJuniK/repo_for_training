@@ -1,10 +1,8 @@
 package ru.otus.model;
 
-import ru.otus.copier.Copyable;
-
 import java.util.List;
 
-public class ObjectForMessage implements Copyable<ObjectForMessage> {
+public class ObjectForMessage implements Cloneable {
     private List<String> data;
 
     public List<String> getData() {
@@ -15,7 +13,6 @@ public class ObjectForMessage implements Copyable<ObjectForMessage> {
         this.data = data;
     }
 
-    @Override
     public ObjectForMessage copy() {
         ObjectForMessage copy = new ObjectForMessage();
         if (getData() != null) {

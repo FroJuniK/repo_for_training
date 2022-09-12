@@ -7,8 +7,8 @@ import ru.otus.model.ObjectForMessage;
 import ru.otus.processor.LoggerProcessor;
 import ru.otus.processor.ProcessorExceptionThrower;
 import ru.otus.processor.ProcessorSwapperFields;
-import ru.otus.time.TimeProvider;
 
+import java.time.LocalTime;
 import java.util.List;
 
 public class HomeWork {
@@ -33,7 +33,7 @@ public class HomeWork {
          */
 
         var processors = List.of(new LoggerProcessor(new ProcessorSwapperFields()),
-                new ProcessorExceptionThrower(new TimeProvider() {}));
+                new ProcessorExceptionThrower(LocalTime::now));
 
         var complexProcessor = new ComplexProcessor(processors, ex -> {});
         var historyListener = new HistoryListener();

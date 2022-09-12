@@ -13,7 +13,7 @@ public class ProcessorExceptionThrower implements Processor {
 
     @Override
     public Message process(Message message) {
-        if (timeProvider.isAnEvenSecond()) {
+        if (timeProvider.getTime().getSecond() % 2 == 0) {
             throw new RuntimeException("Even second!");
         }
         return message;

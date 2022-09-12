@@ -9,6 +9,7 @@ import ru.otus.processor.Processor;
 import ru.otus.processor.ProcessorExceptionThrower;
 import ru.otus.time.TimeProvider;
 
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -103,14 +104,14 @@ class ComplexProcessorTest {
         var message = new Message.Builder(1L).field11("hi").field12("bye").build();
         var ex = new ProcessorExceptionThrower(new TimeProvider() {
             @Override
-            public boolean isAnEvenSecond() {
-                return true;
+            public LocalTime getTime() {
+                return LocalTime.of(10, 20);
             }
         });
         var noEx = new ProcessorExceptionThrower(new TimeProvider() {
             @Override
-            public boolean isAnEvenSecond() {
-                return false;
+            public LocalTime getTime() {
+                return LocalTime.of(1, 15, 17);
             }
         });
 
