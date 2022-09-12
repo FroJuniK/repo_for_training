@@ -18,6 +18,9 @@
 Цель: Понять как реализуется AOP, какие для этого есть технические средства<br>
 #### [hw06-solid](https://github.com/FroJuniK/repo_for_training/tree/main/hw06-solid)
 Тема: Эмулятор банкомата<br>
-Цель: Применить на практике принципы SOLID<br><br>
+Цель: Применить на практике принципы SOLID<br>
+#### [hw07-patterns](https://github.com/FroJuniK/repo_for_training/tree/main/hw07-patterns)
+Тема: Обработчик сообщений<br>
+Цель: Применить на практике шаблоны проектирования<br><br>
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
