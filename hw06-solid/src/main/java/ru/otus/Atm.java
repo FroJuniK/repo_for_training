@@ -7,9 +7,9 @@ import java.util.List;
 
 public interface Atm {
 
-    void depositMoney(List<Banknote> money);
+    void depositMoney(List<Banknote> money) throws UnableToWithdrawException;
 
     List<Banknote> withdrawMoney(int value) throws UnableToWithdrawException;
 
-    int getBalance();
+    int getBalance() throws UnableToWithdrawException;
 }

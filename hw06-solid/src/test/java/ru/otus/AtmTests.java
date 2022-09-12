@@ -28,7 +28,7 @@ class AtmTests {
     }
 
     @Test
-    void putMoney() {
+    void putMoney() throws UnableToWithdrawException {
         List<Banknote> money = Arrays.asList(
                 new Banknote(Denomination.ONE_HUNDRED),
                 new Banknote(Denomination.ONE_HUNDRED),
@@ -66,7 +66,7 @@ class AtmTests {
     }
 
     @Test
-    void requestMoneyWithAnError() {
+    void requestMoneyWithAnError() throws UnableToWithdrawException {
         List<Banknote> money = Arrays.asList(
                 new Banknote(Denomination.FIVE_HUNDREDS),
                 new Banknote(Denomination.ONE_THOUSAND),
@@ -80,5 +80,15 @@ class AtmTests {
     @Test
     void requestMoneyWhenCellsAreEmpty() {
         assertThrows(UnableToWithdrawException.class, () -> atm.withdrawMoney(2000));
+    }
+
+    @Test
+    void putMoneyWhenNoCell() {
+        MoneyStorage moneyStorage = new MoneyStorage();
+        moneyStorage.putCell(Denomination.FIVE_HUNDREDS, new Cell());
+        atm = new AtmSimple(moneyStorage);
+
+        assertThrows(UnableToWithdrawException.class,
+                () -> atm.depositMoney(Arrays.asList(new Banknote(Denomination.ONE_HUNDRED))));
     }
 }
