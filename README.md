@@ -24,6 +24,9 @@
 Цель: Применить на практике шаблоны проектирования<br>
 #### [hw08-io](https://github.com/FroJuniK/repo_for_training/tree/main/hw08-io)
 Тема: Обработчик json-ов<br>
-Цель: Научиться обрабатывать json, научиться работать с файлами<br><br>
+Цель: Научиться обрабатывать json, научиться работать с файлами<br>
+#### [hw09-jdbc](https://github.com/FroJuniK/repo_for_training/tree/main/hw09-jdbc)
+Тема: Самодельный ORM<br>
+Цель: Научиться работать с jdbc. На практике освоить многоуровневую архитектуру приложения.<br><br>
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
