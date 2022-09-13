@@ -21,6 +21,9 @@
 Цель: Применить на практике принципы SOLID<br>
 #### [hw07-patterns](https://github.com/FroJuniK/repo_for_training/tree/main/hw07-patterns)
 Тема: Обработчик сообщений<br>
-Цель: Применить на практике шаблоны проектирования<br><br>
+Цель: Применить на практике шаблоны проектирования<br>
+#### [hw08-io](https://github.com/FroJuniK/repo_for_training/tree/main/hw08-io)
+Тема: Обработчик json-ов<br>
+Цель: Научиться обрабатывать json, научиться работать с файлами<br><br>
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='30'>](https://github.com/FroJuniK)  
